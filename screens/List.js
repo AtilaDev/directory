@@ -13,6 +13,7 @@ import { useDebouncedCallback } from 'use-debounce';
 import { Ionicons } from '@expo/vector-icons';
 import { fontArray } from '../miniFonts';
 import Hotshot from 'hotshot';
+import { AntDesign } from '@expo/vector-icons';
 
 const List = () => {
   const inputRef = useRef();
@@ -151,6 +152,27 @@ const List = () => {
             <Info />
           )}
         </View>
+        <View style={styles.aboutView}>
+          <Text style={{ color: '#4A148C' }}>
+            search engine developed by AtilaDev -{' '}
+          </Text>
+          <View
+            style={{ flexDirection: 'row', alignItems: 'center' }}
+            accessibilityRole="link"
+            href="https://twitter.com/FavreLeandro"
+            target="_blank">
+            <AntDesign name="twitter" size={20} color="#7B1FA2" />
+            <Text style={styles.aboutTwitter}>@FavreLeandro</Text>
+          </View>
+          <View
+            style={{ flexDirection: 'row', alignItems: 'center' }}
+            accessibilityRole="link"
+            href="https://github.com/AtilaDev"
+            target="_blank">
+            <AntDesign name="github" size={20} color="#7B1FA2" />
+            <Text style={styles.aboutGithub}>github.com/AtilaDev</Text>
+          </View>
+        </View>
       </View>
     </View>
   );
@@ -237,6 +259,22 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     paddingLeft: 20,
     fontSize: 20,
+  },
+  aboutView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    position: 'absolute',
+    bottom: 10,
+    right: 10,
+  },
+  aboutTwitter: {
+    marginLeft: 3,
+    marginRight: 7,
+    color: '#7B1FA2',
+  },
+  aboutGithub: {
+    marginLeft: 5,
+    color: '#7B1FA2',
   },
 });
 

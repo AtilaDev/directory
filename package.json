@@ -1,11 +1,8 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "start": "expo start --web",
+    "build": "expo build:web --no-pwa"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.6",
@@ -21,12 +18,12 @@
     "react-native-safe-area-context": "0.7.3",
     "react-native-screens": "~2.2.0",
     "react-native-web": "~0.11.7",
-    "react-responsive": "^8.0.3",
     "use-debounce": "^3.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
-    "babel-preset-expo": "~8.1.0"
+    "babel-preset-expo": "~8.1.0",
+    "expo-cli": "^3.20.3"
   },
   "private": true
 }

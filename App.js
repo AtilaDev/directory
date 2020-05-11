@@ -19,7 +19,7 @@ export default function App() {
             component={List}
             options={{
               title:
-                'Directory - by AtilaDev | easy & quick search to find @expo-google-fonts',
+                '@expo-google-fonts Directory | easy & quick search to find @expo-google-fonts',
               headerStyle: {
                 backgroundColor: '#4A148C',
                 borderBottomColor: '#4A148C',

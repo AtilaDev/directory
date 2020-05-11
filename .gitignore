@@ -1,14 +1,12 @@
+npm-debug.log
 node_modules/**/*
-.expo/*
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
-web-report/
-
-# macOS
 .DS_Store
+build/**/*
+.expo
+web-build
+build
+
+.now
+miniFonts copy.js
+variants copy
+package copy.json
