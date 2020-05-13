@@ -1740,25 +1740,6 @@ export const fontArray = [
     fontName: 'dr-sugiyama',
     variants: ['DrSugiyama_Regular400'],
   },
-  // check
-  {
-    fontName: 'droid-sans-mono',
-    variants: ['DroidSansMono_Regular400'],
-  },
-  {
-    fontName: 'droid-sans',
-    variants: ['DroidSans_Regular400', 'DroidSans_Bold700'],
-  },
-  {
-    fontName: 'droid-serif',
-    variants: [
-      'DroidSerif_Regular400',
-      'DroidSerif_Regular400_Italic',
-      'DroidSerif_Bold700',
-      'DroidSerif_Bold700_Italic',
-    ],
-  },
-  // END check
   {
     fontName: 'duru-sans',
     variants: ['DuruSans_Regular400'],
