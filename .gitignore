@@ -3,10 +3,9 @@ node_modules/**/*
 .DS_Store
 build/**/*
 .expo
-web-build
+
 build
 
 .now
 miniFonts_copy.js
 package_copy.json
-variants_copy

@@ -13,13 +13,17 @@
 
 #### Remember: don't forget to go to [@expo-google-fonts](https://github.com/expo/google-fonts) to read the docs about how to install and use it.
 
+### To Do
+- Responsive
+- 
+
 ### Author
 
 Leandro Favre
 - GitHub ([@AtilaDev](https://github.com/AtilaDev)) - AtilaDev
 - Twitter ([@FavreLeandro](https://twitter.com/FavreLeandro))
 
-### Thanks
+### Thanks to
 
 - Charlie Cheever ([@ccheever](https://github.com/ccheever)) - Expo
 

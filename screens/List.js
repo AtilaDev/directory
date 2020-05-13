@@ -94,9 +94,7 @@ const List = () => {
   const Info = () => {
     return (
       <View>
-        <Text style={styles.titleUse}>
-          Guide to install and use the library:
-        </Text>
+        <Text style={styles.titleUse}>Guide to install and use it:</Text>
 
         <Text
           accessibilityRole="link"
