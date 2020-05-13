@@ -152,7 +152,7 @@ const List = () => {
         </View>
         <View style={styles.aboutView}>
           <Text style={{ color: '#4A148C' }}>
-            search engine developed by AtilaDev -{' '}
+            s.e. developed by AtilaDev -{' '}
           </Text>
           <View
             style={{ flexDirection: 'row', alignItems: 'center' }}
