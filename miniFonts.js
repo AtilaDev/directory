@@ -78,22 +78,14 @@ export const fontArray = [
     variants: ['Alef_Regular400', 'Alef_Bold700'],
   },
   {
-    fontName: 'alegreya-sans-sc',
+    fontName: 'alegreya',
     variants: [
-      'AlegreyaSansSC_Thin100',
-      'AlegreyaSansSC_Thin100_Italic',
-      'AlegreyaSansSC_Light300',
-      'AlegreyaSansSC_Light300_Italic',
-      'AlegreyaSansSC_Regular400',
-      'AlegreyaSansSC_Regular400_Italic',
-      'AlegreyaSansSC_Medium500',
-      'AlegreyaSansSC_Medium500_Italic',
-      'AlegreyaSansSC_Bold700',
-      'AlegreyaSansSC_Bold700_Italic',
-      'AlegreyaSansSC_ExtraBold800',
-      'AlegreyaSansSC_ExtraBold800_Italic',
-      'AlegreyaSansSC_Black900',
-      'AlegreyaSansSC_Black900_Italic',
+      'Alegreya_Regular400',
+      'Alegreya_Regular400_Italic',
+      'Alegreya_Bold700',
+      'Alegreya_Bold700_Italic',
+      'Alegreya_Black900',
+      'Alegreya_Black900_Italic',
     ],
   },
   {
@@ -116,6 +108,26 @@ export const fontArray = [
     ],
   },
   {
+    fontName: 'alegreya-sans-sc',
+    variants: [
+      'AlegreyaSansSC_Thin100',
+      'AlegreyaSansSC_Thin100_Italic',
+      'AlegreyaSansSC_Light300',
+      'AlegreyaSansSC_Light300_Italic',
+      'AlegreyaSansSC_Regular400',
+      'AlegreyaSansSC_Regular400_Italic',
+      'AlegreyaSansSC_Medium500',
+      'AlegreyaSansSC_Medium500_Italic',
+      'AlegreyaSansSC_Bold700',
+      'AlegreyaSansSC_Bold700_Italic',
+      'AlegreyaSansSC_ExtraBold800',
+      'AlegreyaSansSC_ExtraBold800_Italic',
+      'AlegreyaSansSC_Black900',
+      'AlegreyaSansSC_Black900_Italic',
+    ],
+  },
+
+  {
     fontName: 'alegreya-sc',
     variants: [
       'AlegreyaSC_Regular400',
@@ -124,17 +136,6 @@ export const fontArray = [
       'AlegreyaSC_Bold700_Italic',
       'AlegreyaSC_Black900',
       'AlegreyaSC_Black900_Italic',
-    ],
-  },
-  {
-    fontName: 'alegreya',
-    variants: [
-      'Alegreya_Regular400',
-      'Alegreya_Regular400_Italic',
-      'Alegreya_Bold700',
-      'Alegreya_Bold700_Italic',
-      'Alegreya_Black900',
-      'Alegreya_Black900_Italic',
     ],
   },
   {
@@ -161,24 +162,24 @@ export const fontArray = [
     variants: ['Alice_Regular400'],
   },
   {
-    fontName: 'alike-angular',
-    variants: ['AlikeAngular_Regular400'],
-  },
-  {
     fontName: 'alike',
     variants: ['Alike_Regular400'],
+  },
+  {
+    fontName: 'alike-angular',
+    variants: ['AlikeAngular_Regular400'],
   },
   {
     fontName: 'allan',
     variants: ['Allan_Regular400', 'Allan_Bold700'],
   },
   {
-    fontName: 'allerta-stencil',
-    variants: ['AllertaStencil_Regular400'],
-  },
-  {
     fontName: 'allerta',
     variants: ['Allerta_Regular400'],
+  },
+  {
+    fontName: 'allerta-stencil',
+    variants: ['AllertaStencil_Regular400'],
   },
   {
     fontName: 'allura',
@@ -194,14 +195,6 @@ export const fontArray = [
     ],
   },
   {
-    fontName: 'almendra-display',
-    variants: ['AlmendraDisplay_Regular400'],
-  },
-  {
-    fontName: 'almendra-sc',
-    variants: ['AlmendraSC_Regular400'],
-  },
-  {
     fontName: 'almendra',
     variants: [
       'Almendra_Regular400',
@@ -209,6 +202,14 @@ export const fontArray = [
       'Almendra_Bold700',
       'Almendra_Bold700_Italic',
     ],
+  },
+  {
+    fontName: 'almendra-display',
+    variants: ['AlmendraDisplay_Regular400'],
+  },
+  {
+    fontName: 'almendra-sc',
+    variants: ['AlmendraSC_Regular400'],
   },
   {
     fontName: 'amarante',
@@ -263,6 +264,10 @@ export const fontArray = [
   {
     fontName: 'andika',
     variants: ['Andika_Regular400'],
+  },
+  {
+    fontName: 'angkor',
+    variants: ['Angkor_400Regular'],
   },
   {
     fontName: 'annie-use-your-telescope',
@@ -404,6 +409,19 @@ export const fontArray = [
       'Asap_Medium500_Italic',
       'Asap_Bold700',
       'Asap_Bold700_Italic',
+    ],
+  },
+  {
+    fontName: 'asap-condensed',
+    variants: [
+      'AsapCondensed_400Regular',
+      'AsapCondensed_400Regular_Italic',
+      'AsapCondensed_500Medium',
+      'AsapCondensed_500Medium_Italic',
+      'AsapCondensed_600SemiBold',
+      'AsapCondensed_600SemiBold_Italic',
+      'AsapCondensed_700Bold',
+      'AsapCondensed_700Bold_Italic',
     ],
   },
   {
@@ -563,44 +581,107 @@ export const fontArray = [
     ],
   },
   {
-    fontName: 'baloo-bhai',
-    variants: ['BalooBhai_Regular400'],
+    fontName: 'baloo-bhai-2',
+    variants: [
+      'BalooBhai2_400Regular',
+      'BalooBhai2_500Medium',
+      'BalooBhai2_600SemiBold',
+      'BalooBhai2_700Bold',
+      'BalooBhai2_800ExtraBold',
+    ],
   },
   {
     fontName: 'baloo-bhaijaan',
     variants: ['BalooBhaijaan_Regular400'],
   },
   {
-    fontName: 'baloo-bhaina',
-    variants: ['BalooBhaina_Regular400'],
+    fontName: 'baloo-bhaina-2',
+    variants: [
+      'BalooBhaina2_400Regular',
+      'BalooBhaina2_500Medium',
+      'BalooBhaina2_600SemiBold',
+      'BalooBhaina2_700Bold',
+      'BalooBhaina2_800ExtraBold',
+    ],
   },
   {
-    fontName: 'baloo-chettan',
-    variants: ['BalooChettan_Regular400'],
+    fontName: 'baloo-chettan-2',
+    variants: [
+      'BalooChettan2_400Regular',
+      'BalooChettan2_500Medium',
+      'BalooChettan2_600SemiBold',
+      'BalooChettan2_700Bold',
+      'BalooChettan2_800ExtraBold',
+    ],
   },
   {
-    fontName: 'baloo-da',
-    variants: ['BalooDa_Regular400'],
+    fontName: 'baloo-da-2',
+    variants: [
+      'BalooDa2_400Regular',
+      'BalooDa2_500Medium',
+      'BalooDa2_600SemiBold',
+      'BalooDa2_700Bold',
+      'BalooDa2_800ExtraBold',
+    ],
   },
   {
-    fontName: 'baloo-paaji',
-    variants: ['BalooPaaji_Regular400'],
+    fontName: 'baloo-paaji-2',
+    variants: [
+      'BalooPaaji2_400Regular',
+      'BalooPaaji2_500Medium',
+      'BalooPaaji2_600SemiBold',
+      'BalooPaaji2_700Bold',
+      'BalooPaaji2_800ExtraBold',
+    ],
   },
   {
-    fontName: 'baloo-tamma',
-    variants: ['BalooTamma_Regular400'],
+    fontName: 'baloo-tamma-2',
+    variants: [
+      'BalooTamma2_400Regular',
+      'BalooTamma2_500Medium',
+      'BalooTamma2_600SemiBold',
+      'BalooTamma2_700Bold',
+      'BalooTamma2_800ExtraBold',
+    ],
   },
   {
-    fontName: 'baloo-tammudu',
-    variants: ['BalooTammudu_Regular400'],
+    fontName: 'baloo-tammudu-2',
+    variants: [
+      'BalooTammudu2_400Regular',
+      'BalooTammudu2_500Medium',
+      'BalooTammudu2_600SemiBold',
+      'BalooTammudu2_700Bold',
+      'BalooTammudu2_800ExtraBold',
+    ],
   },
   {
-    fontName: 'baloo-thambi',
-    variants: ['BalooThambi_Regular400'],
+    fontName: 'baloo-thambi-2',
+    variants: [
+      'BalooThambi2_400Regular',
+      'BalooThambi2_500Medium',
+      'BalooThambi2_600SemiBold',
+      'BalooThambi2_700Bold',
+      'BalooThambi2_800ExtraBold',
+    ],
   },
   {
-    fontName: 'baloo',
-    variants: ['Baloo_Regular400'],
+    fontName: 'baloo-2',
+    variants: [
+      'Baloo2_400Regular',
+      'Baloo2_500Medium',
+      'Baloo2_600SemiBold',
+      'Baloo2_700Bold',
+      'Baloo2_800ExtraBold',
+    ],
+  },
+  {
+    fontName: 'balsamiq-sans',
+    variants: [
+      'BalsamiqSans_400Regular',
+      'BalsamiqSans_400Regular_Italic',
+      'BalsamiqSans_700Bold',
+      'BalsamiqSans_700Bold_Italic',
+    ],
   },
   {
     fontName: 'balthazar',
@@ -696,8 +777,16 @@ export const fontArray = [
     variants: ['Baskervville_Regular400', 'Baskervville_Regular400_Italic'],
   },
   {
+    fontName: 'battambang',
+    variants: ['Battambang_400Regular', 'Battambang_700Bold'],
+  },
+  {
     fontName: 'baumans',
     variants: ['Baumans_Regular400'],
+  },
+  {
+    fontName: 'bayon',
+    variants: ['Bayon_400Regular'],
   },
   {
     fontName: 'be-vietnam',
@@ -886,6 +975,10 @@ export const fontArray = [
       'Blinker_ExtraBold800',
       'Blinker_Black900',
     ],
+  },
+  {
+    fontName: 'bokor',
+    variants: ['Bokor_400Regular'],
   },
   {
     fontName: 'bonbon',
@@ -1183,6 +1276,10 @@ export const fontArray = [
     variants: ['ChelseaMarket_Regular400'],
   },
   {
+    fontName: 'chenla',
+    variants: ['Chenla_400Regular'],
+  },
+  {
     fontName: 'cherry-cream-soda',
     variants: ['CherryCreamSoda_Regular400'],
   },
@@ -1285,6 +1382,10 @@ export const fontArray = [
   {
     fontName: 'condiment',
     variants: ['Condiment_Regular400'],
+  },
+  {
+    fontName: 'content',
+    variants: ['Content_400Regular', 'Content_700Bold'],
   },
   {
     fontName: 'contrail-one',
@@ -1493,6 +1594,10 @@ export const fontArray = [
     variants: ['DancingScript_Regular400', 'DancingScript_Bold700'],
   },
   {
+    fontName: 'dangrek',
+    variants: ['Dangrek_400Regular'],
+  },
+  {
     fontName: 'darker-grotesque',
     variants: [
       'DarkerGrotesque_Light300',
@@ -1565,6 +1670,18 @@ export const fontArray = [
     variants: ['Diplomata_Regular400'],
   },
   {
+    fontName: 'dm-mono',
+    variants: [
+      'DMMono_300Light',
+      'DMMono_300Light_Italic',
+      'DMMono_400Regular',
+      'DMMono_400Regular_Italic',
+      'DMMono_500Medium',
+      'DMMono_500Medium_Italic',
+    ],
+  },
+
+  {
     fontName: 'dm-sans',
     variants: [
       'DMSans_Regular400',
@@ -1623,6 +1740,7 @@ export const fontArray = [
     fontName: 'dr-sugiyama',
     variants: ['DrSugiyama_Regular400'],
   },
+  // check
   {
     fontName: 'droid-sans-mono',
     variants: ['DroidSansMono_Regular400'],
@@ -1640,6 +1758,7 @@ export const fontArray = [
       'DroidSerif_Bold700_Italic',
     ],
   },
+  // END check
   {
     fontName: 'duru-sans',
     variants: ['DuruSans_Regular400'],
@@ -1916,6 +2035,10 @@ export const fontArray = [
     variants: ['FasterOne_Regular400'],
   },
   {
+    fontName: 'fasthand',
+    variants: ['Fasthand_400Regular'],
+  },
+  {
     fontName: 'fauna-one',
     variants: ['FaunaOne_Regular400'],
   },
@@ -2088,6 +2211,10 @@ export const fontArray = [
   {
     fontName: 'fredoka-one',
     variants: ['FredokaOne_Regular400'],
+  },
+  {
+    fontName: 'freehand',
+    variants: ['Freehand_400Regular'],
   },
   {
     fontName: 'fresca',
@@ -2351,6 +2478,10 @@ export const fontArray = [
   {
     fontName: 'handlee',
     variants: ['Handlee_Regular400'],
+  },
+  {
+    fontName: 'hanuman',
+    variants: ['Hanuman_400Regular', 'Hanuman_700Bold'],
   },
   {
     fontName: 'happy-monkey',
@@ -2764,6 +2895,29 @@ export const fontArray = [
     ],
   },
   {
+    fontName: 'jost',
+    variants: [
+      'Jost_100Thin',
+      'Jost_200ExtraLight',
+      'Jost_300Light',
+      'Jost_400Regular',
+      'Jost_500Medium',
+      'Jost_600SemiBold',
+      'Jost_700Bold',
+      'Jost_800ExtraBold',
+      'Jost_900Black',
+      'Jost_100Thin_Italic',
+      'Jost_200ExtraLight_Italic',
+      'Jost_300Light_Italic',
+      'Jost_400Regular_Italic',
+      'Jost_500Medium_Italic',
+      'Jost_600SemiBold_Italic',
+      'Jost_700Bold_Italic',
+      'Jost_800ExtraBold_Italic',
+      'Jost_900Black_Italic',
+    ],
+  },
+  {
     fontName: 'joti-one',
     variants: ['JotiOne_Regular400'],
   },
@@ -2935,6 +3089,10 @@ export const fontArray = [
     ],
   },
   {
+    fontName: 'khmer',
+    variants: ['Khmer_400Regular'],
+  },
+  {
     fontName: 'khula',
     variants: [
       'Khula_Light300',
@@ -3001,6 +3159,10 @@ export const fontArray = [
   {
     fontName: 'kotta-one',
     variants: ['KottaOne_Regular400'],
+  },
+  {
+    fontName: 'koulen',
+    variants: ['Koulen_400Regular'],
   },
   {
     fontName: 'kranky',
@@ -3642,6 +3804,10 @@ export const fontArray = [
     ],
   },
   {
+    fontName: 'metal',
+    variants: ['Metal_400Regular'],
+  },
+  {
     fontName: 'metal-mania',
     variants: ['MetalMania_Regular400'],
   },
@@ -3798,6 +3964,14 @@ export const fontArray = [
       'Montserrat_Black900',
       'Montserrat_Black900_Italic',
     ],
+  },
+  {
+    fontName: 'moul',
+    variants: ['Moul_400Regular'],
+  },
+  {
+    fontName: 'moulpali',
+    variants: ['Moulpali_400Regular'],
   },
   {
     fontName: 'mountains-of-christmas',
@@ -3987,6 +4161,10 @@ export const fontArray = [
     ],
   },
   {
+    fontName: 'nokora',
+    variants: ['Nokora_400Regular', 'Nokora_700Bold'],
+  },
+  {
     fontName: 'norican',
     variants: ['Norican_Regular400'],
   },
@@ -4012,10 +4190,6 @@ export const fontArray = [
     ],
   },
   {
-    fontName: 'noto-color-emoji-compat',
-    variants: ['NotoColorEmojiCompat_Regular400'],
-  },
-  {
     fontName: 'noto-sans',
     variants: [
       'NotoSans_Regular400',
@@ -4025,12 +4199,115 @@ export const fontArray = [
     ],
   },
   {
+    fontName: 'noto-sans-hk',
+    variants: [
+      'NotoSansHK_100Thin',
+      'NotoSansHK_300Light',
+      'NotoSansHK_400Regular',
+      'NotoSansHK_500Medium',
+      'NotoSansHK_700Bold',
+      'NotoSansHK_900Black',
+    ],
+  },
+  {
+    fontName: 'noto-sans-jp',
+    variants: [
+      'NotoSansJP_100Thin',
+      'NotoSansJP_300Light',
+      'NotoSansJP_400Regular',
+      'NotoSansJP_500Medium',
+      'NotoSansJP_700Bold',
+      'NotoSansJP_900Black',
+    ],
+  },
+  {
+    fontName: 'noto-sans-kr',
+    variants: [
+      'NotoSansKR_100Thin',
+      'NotoSansKR_300Light',
+      'NotoSansKR_400Regular',
+      'NotoSansKR_500Medium',
+      'NotoSansKR_700Bold',
+      'NotoSansKR_900Black',
+    ],
+  },
+  {
+    fontName: 'noto-sans-sc',
+    variants: [
+      'NotoSansSC_100Thin',
+      'NotoSansSC_300Light',
+      'NotoSansSC_400Regular',
+      'NotoSansSC_500Medium',
+      'NotoSansSC_700Bold',
+      'NotoSansSC_900Black',
+    ],
+  },
+  {
+    fontName: 'noto-sans-tc',
+    variants: [
+      'NotoSansTC_100Thin',
+      'NotoSansTC_300Light',
+      'NotoSansTC_400Regular',
+      'NotoSansTC_500Medium',
+      'NotoSansTC_700Bold',
+      'NotoSansTC_900Black',
+    ],
+  },
+  {
     fontName: 'noto-serif',
     variants: [
       'NotoSerif_Regular400',
       'NotoSerif_Regular400_Italic',
       'NotoSerif_Bold700',
       'NotoSerif_Bold700_Italic',
+    ],
+  },
+  {
+    fontName: 'noto-serif-jp',
+    variants: [
+      'NotoSerifJP_200ExtraLight',
+      'NotoSerifJP_300Light',
+      'NotoSerifJP_400Regular',
+      'NotoSerifJP_500Medium',
+      'NotoSerifJP_600SemiBold',
+      'NotoSerifJP_700Bold',
+      'NotoSerifJP_900Black',
+    ],
+  },
+  {
+    fontName: 'noto-serif-kr',
+    variants: [
+      'NotoSerifKR_200ExtraLight',
+      'NotoSerifKR_300Light',
+      'NotoSerifKR_400Regular',
+      'NotoSerifKR_500Medium',
+      'NotoSerifKR_600SemiBold',
+      'NotoSerifKR_700Bold',
+      'NotoSerifKR_900Black',
+    ],
+  },
+  {
+    fontName: 'noto-serif-sc',
+    variants: [
+      'NotoSerifSC_200ExtraLight',
+      'NotoSerifSC_300Light',
+      'NotoSerifSC_400Regular',
+      'NotoSerifSC_500Medium',
+      'NotoSerifSC_600SemiBold',
+      'NotoSerifSC_700Bold',
+      'NotoSerifSC_900Black',
+    ],
+  },
+  {
+    fontName: 'noto-serif-tc',
+    variants: [
+      'NotoSerifTC_200ExtraLight',
+      'NotoSerifTC_300Light',
+      'NotoSerifTC_400Regular',
+      'NotoSerifTC_500Medium',
+      'NotoSerifTC_600SemiBold',
+      'NotoSerifTC_700Bold',
+      'NotoSerifTC_900Black',
     ],
   },
   {
@@ -4503,6 +4780,10 @@ export const fontArray = [
   {
     fontName: 'prata',
     variants: ['Prata_Regular400'],
+  },
+  {
+    fontName: 'preahvihear',
+    variants: ['Preahvihear_400Regular'],
   },
   {
     fontName: 'press-start-2p',
@@ -5244,6 +5525,10 @@ export const fontArray = [
     variants: ['Shrikhand_Regular400'],
   },
   {
+    fontName: 'siemreap',
+    variants: ['Siemreap_400Regular'],
+  },
+  {
     fontName: 'sigmar-one',
     variants: ['SigmarOne_Regular400'],
   },
@@ -5571,6 +5856,10 @@ export const fontArray = [
     variants: ['Suravaram_Regular400'],
   },
   {
+    fontName: 'suwannaphum',
+    variants: ['Suwannaphum_400Regular'],
+  },
+  {
     fontName: 'swanky-and-moo-moo',
     variants: ['SwankyandMooMoo_Regular400'],
   },
@@ -5593,6 +5882,10 @@ export const fontArray = [
   {
     fontName: 'tangerine',
     variants: ['Tangerine_Regular400', 'Tangerine_Bold700'],
+  },
+  {
+    fontName: 'taprom',
+    variants: ['Taprom_400Regular'],
   },
   {
     fontName: 'tauri',

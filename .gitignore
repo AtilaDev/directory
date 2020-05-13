@@ -7,6 +7,6 @@ web-build
 build
 
 .now
-miniFonts copy.js
-variants copy
-package copy.json
+miniFonts_copy.js
+package_copy.json
+variants_copy
