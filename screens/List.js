@@ -151,9 +151,7 @@ const List = () => {
           )}
         </View>
         <View style={styles.aboutView}>
-          <Text style={{ color: '#4A148C' }}>
-            s.e. developed by AtilaDev -{' '}
-          </Text>
+          <Text style={{ color: '#4A148C' }}>by AtilaDev - </Text>
           <View
             style={{ flexDirection: 'row', alignItems: 'center' }}
             accessibilityRole="link"
