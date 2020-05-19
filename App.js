@@ -18,8 +18,7 @@ export default function App() {
             name="List"
             component={List}
             options={{
-              title:
-                '@expo-google-fonts Directory | easy & quick search to find @expo-google-fonts',
+              title: '@expo-google-fonts Directory',
               headerStyle: {
                 backgroundColor: '#4A148C',
                 borderBottomColor: '#4A148C',
