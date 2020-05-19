@@ -24,7 +24,6 @@ const List = () => {
 
   useEffect(() => {
     setListFonts(getFontsForQuery(query.toLowerCase()));
-    inputRef.current?.focus();
     hotshot;
   }, [query]);
 
@@ -124,7 +123,7 @@ const List = () => {
           <TextInput
             key="stable"
             ref={inputRef}
-            placeholder="Search for a font"
+            placeholder={'Search for a font (Press "/" to focus)'}
             placeholderTextColor="#CE93D8"
             onChangeText={handleOnChange}
             style={styles.input}
