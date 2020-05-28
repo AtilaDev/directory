@@ -20,8 +20,8 @@ export default function App() {
             options={{
               title: '@expo-google-fonts Directory',
               headerStyle: {
-                backgroundColor: '#4A148C',
-                borderBottomColor: '#4A148C',
+                backgroundColor: '#000',
+                borderBottomColor: '#000',
               },
               headerTintColor: '#CCCCCC',
             }}

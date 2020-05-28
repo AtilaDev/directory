@@ -100,7 +100,7 @@ const List = () => {
           href="https://github.com/expo/google-fonts"
           style={styles.infoStyle}
           target="_blank">
-          Follow this link: @expo-google-fonts
+          Follow this link: {'[ @expo-google-fonts ]'}
         </Text>
       </View>
     );
@@ -124,7 +124,7 @@ const List = () => {
             key="stable"
             ref={inputRef}
             placeholder={'Search for a font (Press "/" to focus)'}
-            placeholderTextColor="#CE93D8"
+            placeholderTextColor="#757575"
             onChangeText={handleOnChange}
             style={styles.input}
             selectTextOnFocus
@@ -136,6 +136,7 @@ const List = () => {
 
       <View style={{ flex: 1, flexDirection: 'row' }}>
         <FlatList
+          showsVerticalScrollIndicator={false}
           style={styles.flatStyle}
           data={listFonts}
           renderItem={({ item }) => <IconRow item={item} />}
@@ -150,13 +151,13 @@ const List = () => {
           )}
         </View>
         <View style={styles.aboutView}>
-          <Text style={{ color: '#4A148C' }}>by AtilaDev - </Text>
+          <Text style={{ color: '#757575' }}>by AtilaDev - </Text>
           <View
             style={{ flexDirection: 'row', alignItems: 'center' }}
             accessibilityRole="link"
             href="https://twitter.com/FavreLeandro"
             target="_blank">
-            <AntDesign name="twitter" size={20} color="#7B1FA2" />
+            <AntDesign name="twitter" size={20} color="#757575" />
             <Text style={styles.aboutTwitter}>@FavreLeandro</Text>
           </View>
           <View
@@ -164,7 +165,7 @@ const List = () => {
             accessibilityRole="link"
             href="https://github.com/AtilaDev"
             target="_blank">
-            <AntDesign name="github" size={20} color="#7B1FA2" />
+            <AntDesign name="github" size={20} color="#757575" />
             <Text style={styles.aboutGithub}>github.com/AtilaDev</Text>
           </View>
         </View>
@@ -181,7 +182,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 10,
-    backgroundColor: '#9C27B0',
+    backgroundColor: '#2A2C33',
     width: '40%',
   },
   input: {
@@ -189,7 +190,7 @@ const styles = StyleSheet.create({
     width: '100%',
     fontSize: 18,
     color: '#fff',
-    outlineColor: '#9C27B0',
+    outlineColor: '#2A2C33',
   },
   icon: {
     padding: 10,
@@ -197,7 +198,7 @@ const styles = StyleSheet.create({
   flatStyle: {
     width: '40%',
     borderRightWidth: 1,
-    borderRightColor: '#9C27B0',
+    borderRightColor: '#ccc',
   },
   infoStyle: {
     fontSize: 18,
@@ -207,7 +208,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     borderBottomWidth: 1,
-    borderBottomColor: '#999',
+    borderBottomColor: '#ccc',
     height: 50,
     alignContent: 'center',
   },
@@ -227,8 +228,8 @@ const styles = StyleSheet.create({
     paddingVertical: 1,
     borderWidth: 1,
     borderRadius: 3,
-    borderColor: '#7B1FA2',
-    color: '#7B1FA2',
+    borderColor: '#757575',
+    color: '#757575',
   },
   fontInfoStyle: {
     fontSize: 18,
@@ -237,7 +238,7 @@ const styles = StyleSheet.create({
   barBackground: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#7B1FA2',
+    backgroundColor: '#2A2C33',
   },
   fontname: {
     fontWeight: '700',
@@ -265,11 +266,11 @@ const styles = StyleSheet.create({
   aboutTwitter: {
     marginLeft: 3,
     marginRight: 7,
-    color: '#7B1FA2',
+    color: '#757575',
   },
   aboutGithub: {
     marginLeft: 5,
-    color: '#7B1FA2',
+    color: '#757575',
   },
 });
 
