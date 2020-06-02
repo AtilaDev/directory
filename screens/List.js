@@ -67,7 +67,7 @@ const List = () => {
           <Image style={styles.loadImage} source={loadImage} />
         </TouchableOpacity>
       );
-    });
+    }, [item]);
 
   const HowUseIt = ({ name, variants }) =>
     useMemo(() => {
@@ -88,7 +88,7 @@ const List = () => {
             }>{`import { ${list} ${`\n`}} from '@expo-google-fonts/${name}'`}</Text>
         </View>
       );
-    });
+    }, [name, variants]);
 
   const Info = () => {
     return (
