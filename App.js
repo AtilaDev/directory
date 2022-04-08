@@ -19,7 +19,7 @@ export default function App() {
             component={List}
             options={{
               title:
-                'Directory | Developed  with Love by Leandro Favre - Contact me: https://atiladev.com/en',
+                'Directory | Developed  by Leandro Favre - Contact me: https://atiladev.com',
               headerStyle: {
                 backgroundColor: '#000',
                 borderBottomColor: '#000',

@@ -63,7 +63,8 @@ const List = () => {
           onPress={() => {
             setFontName(item.fontName);
             setVariants(item.variants);
-          }}>
+          }}
+        >
           <Image style={styles.loadImage} source={loadImage} />
         </TouchableOpacity>
       );
@@ -83,9 +84,8 @@ const List = () => {
           </Text>
 
           <Text
-            style={
-              styles.importStyle
-            }>{`import { ${list} ${`\n`}} from '@expo-google-fonts/${name}'`}</Text>
+            style={styles.importStyle}
+          >{`import { ${list} ${`\n`}} from '@expo-google-fonts/${name}'`}</Text>
         </View>
       );
     }, [name, variants]);
@@ -93,14 +93,21 @@ const List = () => {
   const Info = () => {
     return (
       <View>
-        <Text style={styles.titleUse}>Guide to install and use it:</Text>
-
         <Text
-          accessibilityRole="link"
-          href="https://github.com/expo/google-fonts"
+          accessibilityRole='link'
+          href='https://docs.expo.dev/guides/using-custom-fonts/#using-a-google-font'
           style={styles.infoStyle}
-          target="_blank">
-          Follow this link: {'[ @expo-google-fonts ]'}
+          target='_blank'
+        >
+          Press here to read instructions from Expo docs.
+        </Text>
+
+        <Text style={styles.titleUse1}>
+          - @expo-google-fonts is a library developed by Expo.
+        </Text>
+        <Text style={styles.titleUse2}>
+          - Directory is a tool developed with{' '}
+          <AntDesign name='heart' size={15} color='red' /> by Leandro Favre.
         </Text>
       </View>
     );
@@ -114,17 +121,17 @@ const List = () => {
     <View style={styles.container}>
       <View style={styles.barBackground}>
         <View style={styles.searchContainer}>
-          <Ionicons
-            name="md-search"
+          <AntDesign
+            name='search1'
             size={30}
-            color="#FFFFFF"
+            color='#FFFFFF'
             style={styles.icon}
           />
           <TextInput
-            key="stable"
+            key='stable'
             ref={inputRef}
             placeholder={'Search for a font (Press "/" to focus)'}
-            placeholderTextColor="#757575"
+            placeholderTextColor='#757575'
             onChangeText={handleOnChange}
             style={styles.input}
             selectTextOnFocus
@@ -151,21 +158,34 @@ const List = () => {
           )}
         </View>
         <View style={styles.aboutView}>
-          <Text style={{ color: '#757575' }}>by AtilaDev - </Text>
           <View
             style={{ flexDirection: 'row', alignItems: 'center' }}
-            accessibilityRole="link"
-            href="https://twitter.com/FavreLeandro"
-            target="_blank">
-            <AntDesign name="twitter" size={20} color="#757575" />
+            accessibilityRole='link'
+            href='https://atiladev.com'
+            target='_blank'
+          >
+            <Ionicons name='globe' size={20} color='#757575' />
+            <Text style={styles.aboutTwitter}>
+              Developed with <AntDesign name='heart' size={15} color='red' /> by
+              AtilaDev
+            </Text>
+          </View>
+          <View
+            style={{ flexDirection: 'row', alignItems: 'center' }}
+            accessibilityRole='link'
+            href='https://twitter.com/FavreLeandro'
+            target='_blank'
+          >
+            <AntDesign name='twitter' size={20} color='#757575' />
             <Text style={styles.aboutTwitter}>@FavreLeandro</Text>
           </View>
           <View
             style={{ flexDirection: 'row', alignItems: 'center' }}
-            accessibilityRole="link"
-            href="https://github.com/AtilaDev"
-            target="_blank">
-            <AntDesign name="github" size={20} color="#757575" />
+            accessibilityRole='link'
+            href='https://github.com/AtilaDev'
+            target='_blank'
+          >
+            <AntDesign name='github' size={20} color='#757575' />
             <Text style={styles.aboutGithub}>github.com/AtilaDev</Text>
           </View>
         </View>
@@ -243,9 +263,13 @@ const styles = StyleSheet.create({
   fontname: {
     fontWeight: '700',
   },
-  titleUse: {
-    fontSize: 20,
-    marginBottom: 10,
+  titleUse1: {
+    fontSize: 16,
+    marginTop: 60,
+  },
+  titleUse2: {
+    fontSize: 16,
+    marginTop: 5,
   },
   importStyle: {
     fontSize: 16,
