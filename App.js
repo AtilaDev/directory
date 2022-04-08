@@ -12,13 +12,14 @@ export default function App() {
   return (
     <View style={{ backgroundColor: '#FAFAFA', flex: 1 }}>
       <NavigationContainer>
-        <StatusBar barStyle="light-content" />
-        <Stack.Navigator mode="modal" headerMode="float">
+        <StatusBar barStyle='light-content' />
+        <Stack.Navigator mode='modal' headerMode='float'>
           <Stack.Screen
-            name="List"
+            name='List'
             component={List}
             options={{
-              title: '@expo-google-fonts Directory',
+              title:
+                'Directory | Developed  with Love by Leandro Favre - Contact me: https://atiladev.com/en',
               headerStyle: {
                 backgroundColor: '#000',
                 borderBottomColor: '#000',

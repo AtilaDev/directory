@@ -9,3 +9,7 @@ build
 .now
 miniFonts_copy.js
 package_copy.json
+___App.tsx
+__App.js
+Navigation
+tsconfig.json
