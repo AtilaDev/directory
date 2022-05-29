@@ -1,5 +1,7 @@
 # Directory
 
+[![made with expo](https://img.shields.io/badge/MADE%20WITH%20EXPO-000.svg?style=for-the-badge&logo=expo&labelColor=4630eb&logoWidth=20)](https://github.com/expo/expo)
+
 `Directory` is an easy & quick search to find @expo-google-fonts to use in your Expo Apps.
 
 ## Usage
