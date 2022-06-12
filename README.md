@@ -8,16 +8,15 @@
 
 [![Info](./screenshot/info.png)]()
 
-- If focus isn't on searchbox press '/' key.
+- If focus isn't on searchbox press `/` key.
 - Search for any font (search is not alphabetically, because you can remember a part of font name).
-- Press copy button to get the text to install font (e.g: expo install @expo-google-fonts/advent-pro).
+- Press copy button to get the text to install font (e.g: `expo install @expo-google-fonts/advent-pro`).
 - Choose any variant available of font selected.
 
 #### Remember: don't forget to go to [@expo-google-fonts](https://github.com/expo/google-fonts) to read the docs about how to install and use it.
 
 ### To Do
-- Responsive
-- 
+- [ ] Responsive
 
 ### Author
 
