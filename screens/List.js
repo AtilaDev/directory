@@ -114,7 +114,7 @@ const List = () => {
   };
 
   const handleCopy = (fontName) => {
-    Clipboard.setString(`expo install @expo-google-fonts/${fontName}`);
+    Clipboard.setString(`npx expo install @expo-google-fonts/${fontName}`);
   };
 
   return (
