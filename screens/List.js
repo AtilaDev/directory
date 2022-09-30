@@ -7,8 +7,8 @@ import {
   FlatList,
   TouchableOpacity,
   Image,
-  Clipboard,
 } from 'react-native';
+import * as Clipboard from 'expo-clipboard';
 import { useDebouncedCallback } from 'use-debounce';
 import { Ionicons } from '@expo/vector-icons';
 import { fontArray } from '../miniFonts';
@@ -113,8 +113,10 @@ const List = () => {
     );
   };
 
-  const handleCopy = (fontName) => {
-    Clipboard.setString(`npx expo install @expo-google-fonts/${fontName}`);
+  const handleCopy = async (fontName) => {
+    await Clipboard.setStringAsync(
+      `npx expo install @expo-google-fonts/${fontName}`
+    );
   };
 
   return (
